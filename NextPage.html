@@ -1,0 +1,82 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap" rel="stylesheet">
+
+
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=0.0" />
+    <link rel="stylesheet" href="css files/NextPageStyle.css" />
+
+    <title> My Projects Page </title>
+</head>
+<body>
+    <!-- The Page username -->
+    <h1 style="top: 50px; margin: auto 300px; position: absolute; font-size: 40px">Thomas Credo</h1>
+
+
+    <h1 style="margin-top: 250px; margin-left: 600px; font-size: 30px ">My Projects Page </h1>
+
+
+    <!-- images -->
+    <div class="image-profileFrame">
+        <img src="Images/giphy.gif" alt="img bible"
+             style="display: block; margin: 600px 1800px; width: 400px;">
+
+    </div>
+    <div class="image-profileFrame">
+        <img src="Images/200w_d.gif" alt="img rosary"
+             style="display: block; margin: 300px 1800px; width: 300px;">
+
+    </div>
+    <div class="image-profileFrame">
+        <img src="Images/200w.gif" alt="incense gif"
+             style="display: block; margin: 300px 200px; width: 300px;">
+
+    </div>
+
+
+    <div class="frame" style=" margin-left:800px; margin-top:200px;">
+        <div class="title">Quiz Game</div>
+
+
+        <div class="quiz-container">
+            <!--<h1 style="margin-left:-340px;">Catholic Game Quiz </h1>-->
+
+            <div id="Background-Text">Catholic Game Quiz</div> 
+            <img id="Start-Image" src="Images/eqhs5p781m83bhi9hqvf2g9ieu.png" style="width:100%;" />
+            <button id="start-btn">Start Quiz</button>
+
+
+            <div id="quizContainer" style="display: none;">
+                
+                <h2 id="question">Question will appear here</h2>
+                <img id="question-image" src="" alt="Question image">
+
+                <div id="options"></div>
+
+                <!-- Option buttons will appear here -->
+
+                <button id="next-btn" style="margin-bottom:40px;">Next</button>
+                <p id="score"></p>
+
+            </div>
+
+            <button id="ReStart-Button" style="display:none;">Restart Quiz</button>
+        </div>
+
+        <script src="js files/Game.js"></script>
+    </div>
+   
+    <!-- EXIT Button -->
+    <div class="exit">
+        <button id="goBackButton" style=" font-family: 'Bungee Shade', cursive; width: 400px; height: 60px; margin: 900px 100px;
+           background-color: antiquewhite; color: cadetblue,blue,coral; font-size: 35px; " hover="transform: scale(0.15);">
+            Go Back
+        </button>
+        <script src="js files/script.js"></script>
+
+    </div>
+
+</body>
+</html>

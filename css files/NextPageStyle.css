@@ -1,0 +1,118 @@
+﻿body {
+    /*background-color: #5e3a03;*/
+    background-color: color-mix(in srgb, #362105 50%, #856413 50%);
+}
+
+h1 {
+    position: relative;
+    top: 10px;
+    left: 200px;
+    font-size: 30px;
+    font-style: revert;
+    color: yellow;
+    line-height: 1.0;
+    white-space: nowrap;
+}
+
+.frame {
+    width: 500px;
+    padding: 10px 10px 10px;
+    border: 15px double black;
+    border-radius: 15px;
+    /* background: linear-gradient(105deg, #362105, #856413);
+  */
+    position: absolute;
+}
+
+    .frame .title {
+        position: relative;
+        top: -10px;
+        /* left: 190px;*/
+        font-size: 20px;
+        /*padding: 6px 14px;*/
+        /*  color: #ffa685;*/
+        background: linear-gradient(105deg, #f3be91, #cc4621);
+        font-style: italic;
+        text-align: center;
+        font-weight: bold;
+        font-family: 'Sitka Display';
+    }
+
+
+.image-profileFrame {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+
+.frame .quiz-container {
+    background-color: #71b8e674;
+    padding: 40px 40px;
+    margin-right: -60px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0.4,1.0);
+    text-align: center;
+    width: 80%;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+    button:hover {
+        background-color:dimgrey;
+    }
+#question{
+    color:burlywood;
+}
+#options{
+   /* display: block;*/
+    width: 100%;
+    margin-bottom: 10px;
+    object-fit: contain;
+
+
+}
+
+#next-btn {
+    width: 100%;
+    object-fit: contain;
+}
+
+#ReStart-Button {
+    width: 100%;
+    margin-bottom: 10px;
+    object-fit: contain;
+}
+#question-image {
+    width: 100%;
+    max-height: 200px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+
+#start-btn {
+    width: 100%;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+#Background-Text {
+    color: burlywood;
+    width: 100%;
+    font-size:30px;
+}
+.exit {
+    width: 400px;
+    padding: 10px 100px 10px;
+    /*   background-color: #362105;*/
+    margin: 10px 500px;
+    position: relative;
+    left: -600px;
+    top: 10px;
+}
