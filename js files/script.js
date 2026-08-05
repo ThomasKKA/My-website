@@ -11,3 +11,10 @@ if (goBackButton) {
         window.location.href = "index.html";
     });
 }
+
+const prayer = document.getElementById("PrayerPage");
+if (prayer) {
+    prayer.addEventListener('click', function () {
+        window.location.href="Prayer.html"
+    });
+}
