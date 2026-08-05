@@ -1,0 +1,90 @@
+﻿body {
+    
+    background-color: color-mix(in srgb, #362105 50%, #856413 50%);
+}
+
+
+h1 {
+    position: relative;
+    top: 10px;
+    left: 200px;
+    font-size: 30px;
+    font-style: revert;
+    color: yellow;
+    line-height: 1.0;
+    white-space: nowrap;
+}
+
+.container {
+    position: relative;
+    
+}
+
+
+.frame {
+    width: 500px;
+    padding: 10px 10px 10px;
+    border: 15px double black;
+    border-radius: 15px;
+    position: absolute;
+}
+
+    .frame .title {
+        position: relative;
+        top: -10px;
+        /* left: 190px;*/
+        font-size: 20px;
+        /*padding: 6px 14px;*/
+        /*  color: #ffa685;*/
+        background: linear-gradient(105deg, #f3be91, #cc4621);
+        font-style: italic;
+        text-align: center;
+        font-weight: bold;
+        font-family: 'Sitka Display';
+    }
+
+
+.image-profileFrame {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+
+
+.typing {
+    position: absolute;
+   margin:600px 100px;
+    
+    font-size: 33px;
+    animation: glow 0.5s infinite;
+    color: yellow;
+    text-align: center;
+    text-shadow: 0 0 10px Orange;
+}
+
+@keyframes glow {
+    0% {
+        text-shadow: 0 0 6px Orange;
+    }
+
+    40% {
+        text-shadow: 0 0 6px Orange;
+    }
+   20% {
+        text-shadow: 0 0 10px Orange;
+    }
+    
+}
+
+
+/*Go back to home page */
+.exit {
+    width: 400px;
+    padding: 10px 100px 10px;
+    /*   background-color: #362105;*/
+    margin: 10px 500px;
+    position: relative;
+    left: -600px;
+    top: 10px;
+}

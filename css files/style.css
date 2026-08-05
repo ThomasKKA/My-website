@@ -28,11 +28,6 @@ h2 {
 
 .container {
     position: relative;
- /*   display: flex;
-    justify-content: space-around;
-    top: 0px;
-    left: 0px;*/
-    /*height:500px;*/
 }
 .frame  {
     width: 500px;
@@ -149,3 +144,6 @@ h2 {
     .container .youtube:hover {
         transform: scale(1.15);
     }
+
+
+
