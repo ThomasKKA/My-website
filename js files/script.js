@@ -18,3 +18,11 @@ if (prayer) {
         window.location.href="Prayer.html"
     });
 }
+
+
+const AudioBible = document.getElementById("AudioBiblePage");
+if (AudioBible) {
+    AudioBible.addEventListener('click', function () {
+        window.location.href = "Bible.html"
+    });
+}
